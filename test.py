@@ -11,10 +11,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from torchvision import transforms
 from datasets.dataset_huaxi import huaxi_dataset
-# from utils import test_single_volume, final_test_single_volume
-# from networks.GCtx_UNet import GCViT_Unet as ViT_seg
 from myutils.evaluate import evaluate, visualize
-# from trainer import trainer_synapse
 from config import get_config
 
 parser = argparse.ArgumentParser()
