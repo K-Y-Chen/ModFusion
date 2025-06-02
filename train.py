@@ -6,13 +6,7 @@ import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
 from datetime import datetime
-# from networks.GCtx_UNet import GCViT_Unet as ViT_seg
-# from networks.GCtx_UNet_FDv1 import GCViT_Unet as ViT_seg
-# from networks.GCtx_UNet_FDv2 import GCViT_Unet as ViT_seg
-# from networks.GCtx_UNet_FDv3 import GCViT_Unet as ViT_seg
-# from networks.GCtx_UNet_FDv4 import GCViT_Unet as ViT_seg
-# from networks.GCtx_UNet_FDv5 import GCViT_Unet as ViT_seg
-# from networks.GCtx_UNet_v6 import GCViT_Unet as ViT_seg
+
 
 from trainer_huaxi import trainer_huaxi
 from config import get_config
